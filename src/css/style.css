@@ -148,6 +148,10 @@ li {
   display: flex;
 }
 
+.review {
+  padding: 15px;
+}
+
 .reviews {
   font-family: "Montserrat";
   font-weight: 700;
@@ -420,6 +424,7 @@ footer {
   color: #0e0c0d;
   opacity: 0.85;
   text-decoration: none;
+  margin-bottom: 15px;
 }
 
 .nav_social_link {
@@ -434,7 +439,92 @@ footer {
 }
 
 .social_list {
-  width: 350px;
+  width: 372px;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.social_item {
+  padding-top: 7px;
+}
+
+.text {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #0e0c0d;
+}
+
+.network_ellipse {
+  width: 100px;
+  height: 52px;
+  border: 2px solid #e3ecf5;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social_network_link {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+
+.social_network_link_parent {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  padding-top: 10px;
+}
+
+.social_network_link_parent_padding {
+  padding-top: 45px;
+}
+
+.social_network_link_parent .erer .network_ellipse {
+  width: 216px;
+  margin-bottom: 60px;
+}
+
+footer .main_parent {
+  align-items: center;
+}
+
+footer .telephone {
+  padding-top: 60px;
+}
+
+.footer_second_parent {
+  display: flex;
+  width: 835px;
+  padding-left: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_second_parent .pros_text {
+  padding: 10px 19px 28px 0px;
+}
+
+footer {
+  position: relative;
+}
+
+.food {
+  position: absolute;
+  top: 220px;
+  left: 70%;
+  z-index: -1;
+}
+
+.payment {
+  display: flex;
+  width: 140px;
+  justify-content: space-between;
 }
