@@ -329,3 +329,78 @@ li {
   width: 256px;
   height: 189px;
 }
+
+.map {
+  background: #e3ecf5;
+  padding: 56px 0 75px 0;
+}
+
+.pink_btn_parent {
+  display: flex;
+  justify-content: center;
+}
+
+.action {
+  margin-top: 50px;
+  border-radius: 23px;
+}
+
+.pros_card {
+  width: 255px;
+  height: 104px;
+  background: #ffffff;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.03);
+  border-radius: 14px;
+  z-index: 0;
+  position: relative;
+}
+
+.pros_text {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: #473e43;
+  padding: 10px 19px 28px 20px;
+  margin-top: 20px;
+}
+
+.pros_img_ellipse {
+  width: 77px;
+  height: 77px;
+  border-radius: 100%;
+  background: #ffffff;
+  position: absolute;
+  z-index: -1;
+  top: -35px;
+  right: 50%;
+  transform: translateX(50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_parent {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.google_map iframe {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.Payment_and_delivery {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #ff2e65;
+}
+
+footer {
+  padding: 57px 0 77px 0;
+}
