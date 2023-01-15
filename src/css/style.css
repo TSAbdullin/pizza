@@ -404,3 +404,37 @@ li {
 footer {
   padding: 57px 0 77px 0;
 }
+
+.text_inform {
+  display: flex;
+  width: 460px;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.inform {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #0e0c0d;
+  opacity: 0.85;
+  text-decoration: none;
+}
+
+.nav_social_link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #0e0c0d;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.social_list {
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+}
